@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(180deg, #11007A 100%, #060027 100%);
+}
+
+main{
+    background: none;
+    
+}
+h1{
+   
+    position: absolute;
+    top: 45px;
+    left: 45%;
+    color: white;
+    font-family: 'Lora';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 82px;
+}
+.contenedor{
+
+  
+    position: absolute;
+    top: 200px;
+    left: 87px;
+    width: 1200px;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.cuadro{
+border-radius: 10px;
+width: 370px;
+height: 400px;
+overflow: hidden;
+opacity: 0.9 px;
+}
+
+.cuadro > img{
+    border-radius: 10px;
+    width: 420px;
+height: 450px;
+}
+
+.buscar{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 140px;
+    background: none;
+    padding: 0px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.7); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7); 
+    font-size: 20px;
+}
+
+a{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+}
